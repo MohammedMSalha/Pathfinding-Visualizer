@@ -38,15 +38,13 @@ The application should open in your default web browser at http://localhost:3000
 - src/components/Grid.js: Contains the main grid component.
 - src/components/Node.js: Represents a single node in the grid.
 - styled-components: Styling using the styled-components library.
-- public: HTML template and other static assets.
 
 ### Dependencies
 - React
 - styled-components
-- Contributing
   
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GPL-3.0 license - see the LICENSE file for details.
 
 ### Author
 Mohammed M. Salha
