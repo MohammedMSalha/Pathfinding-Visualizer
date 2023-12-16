@@ -161,7 +161,7 @@ const Grid = () => {
         {nodes.map((node) => (
           <Node key={node.id} {...node} />
         ))}
-        <button onClick={visualizeDijkstra} disabled={isLoading}>
+        <button onClick={visualizeDijkstra} disabled={isLoading} style={{width:"300px"}}>
           {isLoading ? 'Processing...' : 'Visualize Dijkstra'}
         </button>
       </GridWrapper>
